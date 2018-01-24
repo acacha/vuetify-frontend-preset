@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+$user = factory (App\User::class)->create();
+Auth::login($user);

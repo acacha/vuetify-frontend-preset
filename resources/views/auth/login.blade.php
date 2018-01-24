@@ -38,7 +38,7 @@
                                     required></v-text-field>
                         </v-flex>
                         <v-flex>
-                            <v-checkbox v-bind:label="`Checkbox 2: ${ex2.toString()}`" v-model="ex2" light></v-checkbox>
+                            <v-checkbox label="Remember me" color="primary" light></v-checkbox>
                         </v-flex>
                         <v-flex class="text-xs-center" mt-5>
                             <v-btn primary type="submit">Login</v-btn>
