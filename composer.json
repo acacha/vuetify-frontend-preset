@@ -4,12 +4,6 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./vuetify"
-        }
-    ],
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
